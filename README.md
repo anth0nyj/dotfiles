@@ -9,6 +9,8 @@ Ensure you have installed the necessary dependencies:
 ### MacOS
 
 ```bash
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
 brew install git stow neovim nushell curl fzf ripgrep fd lazygit
 # Install node
